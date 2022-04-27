@@ -1,0 +1,59 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+ .text-left {
+  text-align: left;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+a {
+  text-decoration: none;
+  background-color: aquamarine;
+  color: gray;
+}
+
+a:hover {
+  background-color: green;
+  transition: 1s;
+}
